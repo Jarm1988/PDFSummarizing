@@ -1,0 +1,7 @@
+openai==0.28
+chromadb
+langchain
+pypdf
+tiktoken
+ttkthemes
+Pillow
