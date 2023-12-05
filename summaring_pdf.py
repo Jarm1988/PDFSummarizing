@@ -58,7 +58,6 @@ class SummarizingPDF:
         self.file_menu1.add_command(label="Go Init", command=self.go_init)
         self.file_menu1.add_command(label="Exit", command=self.exit)
         self.file_menu2.add_command(label="Save Summary", command=self.save_summary)
-        self.file_menu2.add_command(label="Clear Summary", command=self.clear_summary)
         self.file_menu2.add_command(label="Save Querys", command=self.save_querys)
         self.file_menu2.add_command(label="Clear Querys", command=self.clear_querys)
         self.menubar.add_command(label="About", command=self.about)
